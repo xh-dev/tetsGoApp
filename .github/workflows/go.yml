@@ -20,6 +20,9 @@ jobs:
 
     - name: Build
       run: go build
+    
+    - name: list
+      run: ls -al
 
     - name: Test
       run: go test
